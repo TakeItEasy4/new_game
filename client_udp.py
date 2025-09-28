@@ -4,7 +4,7 @@ import json
 import sys
 
 # Connect to server (UDP)
-SERVER_IP = "192.168.106.181"  # 👈 host IP
+SERVER_IP = "192.168.106.215"  # 👈 host IP
 PORT = 5000
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 client.settimeout(1)  # avoid freezing if server doesn't reply
